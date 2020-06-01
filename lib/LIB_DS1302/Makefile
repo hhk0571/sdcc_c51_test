@@ -1,4 +1,4 @@
-PROGRAM = LIB_DS1302.LIB
+PROGRAM = lib_ds1302.lib
 SRC_DIR = ./
 INC_DIR = ../../include
 
