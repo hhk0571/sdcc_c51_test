@@ -1,0 +1,23 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "intelliSenseMode": "clang-x64",
+            "compilerPath": "C:/Users/henhuang/.platformio/packages/toolchain-sdcc/bin/sdcc.exe",
+            "compilerArgs": [
+                "-mmcs51",
+                ""
+            ],
+            "includePath": [
+                "${workspaceFolder}/**",
+                "C:/Users/henhuang/.platformio/packages/toolchain-sdcc/include/mcs51"
+            ]
+        }
+    ],
+    "version": 4
+}
