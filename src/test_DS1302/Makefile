@@ -1,7 +1,8 @@
 PROGRAM = main
 SRC_DIR = ./
 INC_DIR = ../../include
-LIB_DIR = d:/C51/test_led/lib
+# LIB_DIR = $(shell realpath ../../lib) # not recongized by sdcc in Windows OS
+LIB_DIR = d:/C51/sdcc_c51_test/lib
 
 CFLAGS = -mmcs51 -DDEBUG -I $(SRC_DIR) -I $(INC_DIR) -L $(LIB_DIR)
 

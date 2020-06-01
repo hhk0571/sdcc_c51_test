@@ -2,3 +2,14 @@
 # .vscode/c_cpp_properties.json
 .vscode/launch.json
 .vscode/ipch
+*.lst
+*.rel
+*.rst
+*.sym
+*.lk
+*.map
+*.mem
+*.asm
+*.ihx
+*.lib
+*.hex
