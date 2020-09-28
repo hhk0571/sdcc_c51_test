@@ -16,6 +16,8 @@
 #define ON     1
 #define OFF    0
 
+#define NOP() __asm NOP __endasm
+
 /*定义晶振频率（单位 Hz）*/
 #define FOSC  11059200
 //#define FOSC  12000000

@@ -11,7 +11,7 @@ void main()
    unsigned char i;//0-255
 
    hjc52_init();
-   // UART_init();
+   // UART_init(); //若想调用printf向串口打印字符串，需要先调用此函数
 
    while(1)
    {

@@ -2,8 +2,6 @@
 #define   __UART_H__
 
 #include "STC89xx.h"     /*包含STC单片机头文件*/
-#include <stdio.h>
-#include <stdarg.h>
 
 #define CAT(a,b)  a##b
 
@@ -20,10 +18,9 @@ extern void UART_send_byte(byte dat);
 extern void UART_send_str(const char *buf);
 
 /*
- * UART 发送一字节
+ * extern char putchar(char c);
  * 注: 要使用printf(), sdcc要求必须实现putchar函数.
  * 在使用printf()之前, 先调用UART_init()初始化串口.
  */
-extern int putchar(int c);
 
 #endif

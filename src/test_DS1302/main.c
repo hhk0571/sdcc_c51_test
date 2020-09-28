@@ -1,7 +1,7 @@
 ﻿#include "STC89xx.h"     /*包含STC单片机头文件*/
 #include "lib_hjc52.h"   /*包含HJ-C52开发板头文件*/
 #include "lib_uart.h"
-#include "lib_DS1302.h"
+#include "lib_ds1302.h"
 #include <stdio.h>
 
 const char * __code week[]={"Sun","Mon","Tue","Wed","Thu","Fri","Sat"};
@@ -17,7 +17,7 @@ void delay(word n)
 main()
 {
    hjc52_init();
-   UART_init();
+   UART_init(); //若想调用printf向串口打印字符串，需要先调用此函数
    DS1302_init();
 
 #if 0
